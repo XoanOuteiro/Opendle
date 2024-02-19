@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/zero_beige">
+
+    <!-- PRIMERA LINEA -->
+    <LinearLayout
+        android:id="@+id/firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_square">
+
+        <EditText
+            android:id="@+id/celda_11"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_12"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_13"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_14"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_15"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <!-- SEGUNDA LINEA -->
+    <LinearLayout
+        android:id="@+id/secondLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_square">
+
+        <EditText
+            android:id="@+id/celda_21"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_22"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_23"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_24"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_25"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <!-- TERCERA LINEA -->
+    <LinearLayout
+        android:id="@+id/thirdLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_square">
+
+        <EditText
+            android:id="@+id/celda_31"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_32"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_33"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_34"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_35"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <!-- CUARTA LINEA -->
+    <LinearLayout
+        android:id="@+id/fourthLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_square">
+
+        <EditText
+            android:id="@+id/celda_41"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_42"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_43"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_44"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_45"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <!-- QUINTA LINEA -->
+    <LinearLayout
+        android:id="@+id/fifthLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_square">
+
+        <EditText
+            android:id="@+id/celda_51"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_52"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_53"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_54"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_55"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+    <!-- SEXTA LINEA -->
+    <LinearLayout
+        android:id="@+id/sixthLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_square">
+
+        <EditText
+            android:id="@+id/celda_61"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_62"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_63"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_64"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <EditText
+            android:id="@+id/celda_65"
+            android:layout_height="@dimen/game_square_side"
+            android:layout_width="@dimen/game_square_side"
+            android:background="@color/one_beige"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"
+            android:layout_marginRight="@dimen/margin_square"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

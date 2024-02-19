@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_square_side">50dp</dimen>
+    <dimen name="main_button_width">200dp</dimen>
+    <dimen name="main_button_heigth">50dp</dimen>
+    <dimen name="margin_square">10dp</dimen>
+    <dimen name="title_size">50sp</dimen>
+</resources>

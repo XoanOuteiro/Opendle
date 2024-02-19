@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/zero_beige">
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_heigth"
+        android:text="@string/jugar"
+        android:backgroundTint="@color/two_beige"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnEstadisticas"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_heigth"
+        android:text="@string/estadisticas"
+        android:backgroundTint="@color/two_beige"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnAcerca"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_heigth"
+        android:text="@string/acerca_de"
+        android:backgroundTint="@color/two_beige"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
